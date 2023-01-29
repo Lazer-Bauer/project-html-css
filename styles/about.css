@@ -1,0 +1,45 @@
+section p {
+  max-width: 1200px;
+  margin: auto;
+  border: 3px dotted plum;
+  font-size: medium;
+  font-weight: 900;
+  font-style: italic;
+}
+section {
+  margin-top: 2%;
+}
+section h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+.bio-mayer {
+  width: 100%;
+  height: 100%;
+}
+.bio-mayer video {
+  display: flex;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 100%;
+}
+.card-mayer {
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 350px;
+  border: 1px solid black;
+}
+.card-mayer img {
+  width: 250px;
+}
+.card-mayer p {
+  margin-bottom: 1%;
+  text-align: center;
+}
+.bio-mayer h1 {
+  text-align: center;
+}

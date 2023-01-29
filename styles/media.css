@@ -1,0 +1,32 @@
+.pic {
+  margin: 2rem 0;
+}
+
+.pic .my-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem 0;
+}
+
+.pic-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pic-gallery-item img {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+@media (max-width: 480px) {
+  .pic-gallery {
+    justify-content: center;
+    gap: 2rem 0;
+  }
+}
