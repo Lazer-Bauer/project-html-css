@@ -40,11 +40,26 @@ input {
   margin-inline: auto;
 }
 fieldset {
+  /*                           /* = over ride bootstrap
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
+*/
   background-color: lightgray;
   padding: 20px;
   margin-bottom: 105px;
 }
-
+/*
+.legend {
+  float: none;
+  width: 0;
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 0;
+  line-height: 0;
+}
+*/
 .form-group {
   display: flex;
   flex-direction: column;
