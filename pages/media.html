@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
-      integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N"
-      crossorigin="anonymous"
-    />
-
-    <link rel="stylesheet" href="/styles/footer.css" />
-    <link rel="stylesheet" href="/styles/header.css" />
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+  />
     <link rel="stylesheet" href="/styles/main.css" />
-    <title>FAQ</title>
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="stylesheet" href="/styles/media.css" />
+
+    <title>מדיה</title>
   </head>
   <body>
     <header>
@@ -30,21 +31,21 @@
           <nav>
             <ul class="items">
               <li class="item">
-                <a href="/index.html"> דף הבית </a>
+                <a href="../../index.html"> דף הבית </a>
               </li>
               <li class="item">
-                <a href="/pages/about/about.html">אודות</a>
-              </li>
-              <li class="item">
-                <a href="/pages/about/media.html">מדיה</a>
+                <a href="/pages/about.html">אודות</a>
               </li>
               <li class="item active">
-                <a href="/pages/about/FAQ.html"
+                <a href="/pages/media.html">מדיה</a>
+              </li>
+              <li class="item">
+                <a href="/pages/FAQ.html"
                   >שאלות ותשובות</a
                 >
               </li>
               <li class="item">
-                <a href="/pages/about/contact.html"
+                <a href="/pages/contact.html"
                   >צור קשר</a
                 >
               </li>
@@ -57,105 +58,52 @@
         </div>
       </div>
     </header>
-    <div class="my-container">
-      <h1 class="text-center my-3">שאלות ותשובות</h1>
-    </div>
-
-    <section>
-      <div class="my-container mb-5">
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="true"
-                aria-controls="collapseOne"
-              >
-                למה להשתמש בhtml css?
-              </button>
-            </h2>
-            <div
-              id="collapseOne"
-              class="accordion-collapse collapse show"
-              aria-labelledby="headingOne"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <strong>CSS (Cascading Style Sheets) הוא שפת עיצוב ברשת המשמשת לעיצוב דפי HTML. על ידי השתמש ב-CSS, ניתן להגדיר את העיצוב לכל אלמנט HTML למשל טקסט, לוחות, תמונות וכו ' על דרך חופשיות מקובלת, כולל צבעים, גופנים, מרווחים, זווית ועוד.
-
-                  עיצוב CSS מאפשר לנו לעצב דפים ברשת בצורה מוסכמת וקבילה במקום לציין העיצוב עבור כל אלמנט בדף באופן יחידי. זה גם מאפשר לנו לעצב את האינטרפייס המשותף לכל הדפים באתר כך שלא נדרש לערוך את העיצוב עבור כל דף בנפרד.
-                  
-                  בנוסף, CSS מאפשר לנו לכוון לאינטרנט המותאם למוגבלויות ולמכשירים שונים, כמו מכשירי ניידים, מסכי צג וכו ' וכן להתאים אישית לצורך האינטרנט של האנשים השונים.
-                  
-                  
-                  
-                  
-              </div>
-            </div>
+    <h1>גלריית תמונות</h1>
+    <section class="pic">
+      <div class="my-container">
+        <div class="pic-gallery">
+          <div class="pic-gallery-item">
+            <img src="/images/media1.jpg" alt="picture" />
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-                מה זה java-scrip?
-              </button>
-            </h2>
-            <div
-              id="collapseTwo"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingTwo"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <strong>JavaScript (JS) הוא שפת תכנות מקור חופשי ועומדת על פי הסטנדרטים של המפעל W3C. הוא משמש להוספת פונקציות דינמיות ואינטראקטיביות לדפי האינטרנט, כמו למשל טפטופים, דיווחים, בעיות וכו '.
-
-                  JS מאפשר לפתור מספר בעיות ולהוסיף תכונות חדשות לדפי האינטרנט באמצעות תכנון וקוד של תכנות משתמש. זה מאפשר לבצע מספר פעולות ולגדול את החוויות המשתמש באינטרנט, כמו למשל בחירה בתוכן ועדכוני דף בזמן אמת בלי לטעון מחדש את הדף המלא.
-                  
-                  JS נמצא ברוב האתרים ברשת ומוכלל כחלק מהטכנולוגיות הבסיסיות של האינטרנט. זה גם מאפשר לנו לפתור מספר בעיות באמצעות קוד ללא התאמה מחדש לדף האינטרנט המלא ולגדל את הנוחות והיכולות של הדפים
-              </div>
-            </div>
+          <div class="pic-gallery-item">
+            <img src="/images/media6.jpg" alt="picture" />
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                מה זה react?
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingThree"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <strong>React הוא סביבת תכנות רשת פתוחה וחופשית שפותחה על ידי Facebook. זה הוא פריימוורק לפיתוח אפליקציות משתמש עבור המכשירים והרשתות.
-
-                  React משתמש במודל יצירה של קומפוננטות, אשר מאפשר למפתחים לפיתוח חלקים נפרדים של האפליקציה ולאחסן ולשנות אופיו ונתוניו לפי הצורך. זה מסיים להשתיק את הקוד ומאפשר לפיתוח יותר קל ויעיל של אפליקציות רשת.
-                  
-                  React גם נותן תמיכה ב-Virtual DOM, מבנה דינאמי של המוניטור המשמש למקד ולנהל את העדכונים בצורה יעילה יותר. זה מאפשר לפיתוח אפליקציות עם מאובזרויות מתאימות לאינטרנט ומבוצעות בצורה מהירה וחסכונית.
-                  
-                  בכלל, React הוא מקור פעיל ופופולרי עבור פיתוח אפליקציות רשת באינטרנט ומאפשר למפתחים ליצור יכולות עבור משתמשים עם קוד יעיל ומוכן
-              </div>
-            </div>
+          <div class="pic-gallery-item">
+            <img src="/images/media3.jpg" alt="picture" />
+          </div>
+          <div class="pic-gallery-item">
+            <img src="/images/media5.jpg" alt="picture" />
           </div>
         </div>
+      <div class="pic-gallery">
+        <div class="pic-gallery-item">
+          <img src="/images/media4.jpg" alt="picture" />
+        </div>
+        <div class="pic-gallery-item">
+          <img src="/images/media2.jpg" alt="picture" />
+        </div>
+        <div class="pic-gallery-item">
+          <img src="https://images.unsplash.com/photo-1624789444529-245ac3c7ec9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG1hcmRpJTIwZ3JhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="picture" />
+        </div>
+        <div class="pic-gallery-item">
+          <img src="https://images.unsplash.com/photo-1562246061-4222792cd25e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1hcmRpJTIwZ3JhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="picture" />
+        </div>
       </div>
+      <!--video section-->
+      <div class="pic-gallery">
+        <div class="gallery-item">
+          <video width="270px" src="/images/video-media1.mp4" type="mp4" loop autoplay controls></video>
+        </div>
+        <div class="gallery-item">
+          <video width="270px" src="/images/v-media2.mp4" type="mp4" loop autoplay controls></video>
+        </div>
+        <div class="gallery-item">
+          <video width="270px" src="/images/v-media3.mp4" type="mp4" loop autoplay controls></video>
+        </div>
+      </div>
+    </div>
+  </div>
+     
     </section>
     <div class="pg-footer">
       <footer class="footer">
@@ -428,10 +376,5 @@
         
       </footer>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
